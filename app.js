@@ -1,4 +1,5 @@
 const http = require("http")
+const { startPoller } = require("./tasks")
 
 const HOSTNAME = "127.0.0.1"
 const PORT = 3000
@@ -11,4 +12,5 @@ const server = http.createServer((req, res) => {
 
 server.listen(PORT, HOSTNAME, () => {
   console.log(`Server running at http://${HOSTNAME}:${PORT}/`)
+  startPoller()
 })
