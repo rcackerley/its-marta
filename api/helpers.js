@@ -1,7 +1,8 @@
 const TWO_MINUTES = 120
 
 function handleError(error) {
-  console.error(`${error.response?.status}: ${error.message}`)
+  const { response, message } = error
+  console.error(`${response ? response.status : "No Status Code"}: ${message}`)
   return error
 }
 
