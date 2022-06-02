@@ -4,11 +4,15 @@
   "description": "Poll marta train api for realtime arrivals.",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "jest",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
   }
 }
