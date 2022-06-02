@@ -20,7 +20,3 @@ As any frequent marta rider knows, its' arrival times during the daytime hours a
 - Make sure to have Node installed. The project was created using version `v17.8.0`
 - `git clone git@github.com:rcackerley/its-marta.git`
 - `node app.js`
-
-## To Do
-
-- Add unit tests, specifically covering various scenarios around the calculateLatency function
